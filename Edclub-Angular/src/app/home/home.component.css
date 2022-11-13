@@ -1,12 +1,17 @@
 .header {
   background-image: linear-gradient(to right, green, rgb(24, 93, 24));
   padding: 1%;
+  position: fixed;
+}
+.header a{
+    text-decoration: none;
 }
 
 .left {
   float: left;
   color: white;
   font-weight: bold;
+  font-size: xx-large;
 }
 .right {
   float: right;
