@@ -1,0 +1,30 @@
+#footer-main{
+    margin: auto;
+    padding: 5% 10% 5% 10%;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+#footer-main a{
+    text-decoration: none;
+    color: white;   
+}
+#footer-main p,#footer-main h4{
+    color: white;
+}
+.divider-center-large{
+    background-color: white;
+    width: 50%;
+    height: 1px;
+}
+.footer-icons ul li{
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    float: left;
+    padding-right: 10px;
+}
+.footer-icons img{
+    width: 30px;
+    height: 30px;
+}
