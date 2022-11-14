@@ -21,42 +21,37 @@
 .body {
   background-color: rgb(244, 247, 250);
 }
-
-.midpart {
-    background-image: linear-gradient(to right, green, rgb(24, 93, 24));
+.illustrationimg {
+padding-left: 10%;
+height: 100%;
+width: 90%;
 }
 
-  .illustrationimg {
-    padding-left: 10%;
-    height: 100%;
-    width: 90%;
-  }
+.panaimg {
+padding : 10%;
+height: 100%;
+width: 100%;
+}
 
-  .panaimg {
-    padding : 10%;
-    height: 100%;
-    width: 100%;
-  }
+p {
+margin: 0;
+margin-bottom: 2%;
+padding: 0;
+}
 
-  p {
-    margin: 0;
-    margin-bottom: 2%;
-    padding: 0;
-  }
+.midheader {
+background-color: rgb(12, 161, 12);
+}
 
-  .midheader {
-    background-color: rgb(12, 161, 12);
-  }
+.midbody {
+background-color: rgb(244, 247, 250);
+}
 
-  .midbody {
-    background-color: rgb(244, 247, 250);
-  }
+#testimonial-home{
+text-align: center;
+padding-top: 20px;
+background-color: rgb(244, 247, 250);
 
-  #testimonial-home{
-    text-align: center;
-    padding-top: 20px;
-    background-color: rgb(244, 247, 250);
-    
 }
 #testimonial-home img{
     width: 100px;
