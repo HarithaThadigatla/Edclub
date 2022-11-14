@@ -1,0 +1,11 @@
+.navbar{
+    background-color: green;
+    color: white;
+    border-radius: 0;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
