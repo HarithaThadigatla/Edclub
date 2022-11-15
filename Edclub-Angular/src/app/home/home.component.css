@@ -67,11 +67,20 @@ border-bottom: 1px solid rgba(64, 64, 64, 0.2);
     font-size: 120%;
     text-align: justify;
 }
+.last-body{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(64, 64, 64, 0.2);
+}
+.last-body .row{
+    margin: auto;
+}
+.last-body #lastbody-cols{
+    margin: auto;
+}
 #testimonial-home{
 text-align: center;
-padding-top: 20px;
-background-color: rgb(244, 247, 250);
-
+padding: 9% 5%;
+background-color: #F9F9F9;
 }
 #testimonial-home img{
     width: 100px;
@@ -114,13 +123,14 @@ background-color: rgb(244, 247, 250);
     text-align: center;
     margin: auto;
     padding: 10px;
+    
 }
 #testimonial-home-button button{
     border-radius: 50%;
     width: fit-content;
     margin-right: 55px;
     border: none;
-    background-color: white;
+    background-color: #FFFFFF;
     /*padding: 10px;*/
 }
 #testimonial-home-button button:hover{
@@ -143,19 +153,23 @@ background-color: rgb(244, 247, 250);
     padding-left: 5px;
     padding-right: 5px;
 }
-  
+
 
 #upcomingcourse-home{
   text-align: center;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(64, 64, 64, 0.2);
 }
 #upcomingcourse-home h2{
-  padding: 40px;
+  padding: 50px;
+  color: #404040;
 }
 #upcomingcourse-home img{
-    width: 60%;
+    width: 40%;
     height: auto;
     margin: auto;
-    border-radius: 30px;
+    border-radius: 40px;
+    padding: 2% 5%;
 }
 .centered{
     position: absolute;
@@ -168,37 +182,43 @@ background-color: rgb(244, 247, 250);
     font-size: 400%;
 }
 #collage-home{
-    background-color: rgb(74, 72, 72);
+    background-color: #3C3A3A;
     color: white;
-    padding: 10%;
+    padding: 15%;
 }
 #collage-home img{
-    width: 70%;
+    width: 50%;
     height: auto;
     float: right;
 }
 #collage-home h3{
     margin-top: 5%;
+    color: #EFEFEF;
+    font-size:20px;
+    font-weight:400;
 }
 #collage-home h2{
-    margin-top: 5%;
+    margin-top: 1%;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
 }
 #collage-home button{
     margin-top: 1%;
-    padding: 2% 4% 2% 4%;
-    border-radius: 15px;
-    border-color: aliceblue;
-    background-color: rgb(74, 72, 72);
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 1px solid #EFEFEF;
+    background-color: #404040;
 }
 #subscription-home{
     text-align: center;
-    background-image: linear-gradient(to right, green, rgb(24, 93, 24));
+    background: linear-gradient(90.36deg, #267516 0.31%, #014917 99.69%);
     padding: 70px;
     color: white;
 }
 #subscription-home-form{
     width: fit-content;
-    background-color: rgb(191, 191, 191);
+    background: linear-gradient(180deg, rgba(233, 233, 233, 0.3) 0%, rgba(233, 233, 233, 0.4) 100%);
     color: black;
     text-align: center;
     margin: 20px auto auto auto;
