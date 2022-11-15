@@ -1,4 +1,4 @@
-.header {
+/* .header {
   background-image: linear-gradient(to right, green, rgb(24, 93, 24));
   padding: 1%;
   position: fixed;
@@ -17,12 +17,14 @@
   float: right;
   color: white;
   padding-right: 1.5%;
-}
+} */
 .body {
-  background-color: rgb(244, 247, 250);
+  background-color: #F9F9F9;
+  padding-top: 5%;
 }
 .illustrationimg {
 padding-left: 10%;
+padding-top: 10%;
 height: 100%;
 width: 90%;
 }
