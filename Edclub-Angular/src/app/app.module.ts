@@ -15,12 +15,12 @@ import { MatTabsModule } from '@angular/material/tabs';
     HomeComponent,
     LoginComponent,
     MenuComponent,
-    FooterComponent,
-    MatTabsModule
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
