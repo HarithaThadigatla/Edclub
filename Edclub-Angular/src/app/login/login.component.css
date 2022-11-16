@@ -1,0 +1,16 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    padding-top: 5%;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.top {
+    margin-top: 2%;
+}
