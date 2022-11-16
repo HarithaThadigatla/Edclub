@@ -14,6 +14,15 @@
     order: 0;
     flex-grow: 0; */
 }
+@media (max-width:574px) {
+    #footer-main{
+        padding: 50px;
+    }
+    #footer-main a,#footer-main h4,#footer-main p,#footer-main h5{
+        font-size: 150%;
+    }
+    
+}
 #footer-main a{
     text-decoration: none;
     color: #EFEFEF;   

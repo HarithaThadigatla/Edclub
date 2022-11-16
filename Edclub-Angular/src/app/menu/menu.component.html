@@ -1,12 +1,19 @@
+
 <header>
-    <nav class="navbar navbar-expand-md">
-        <div>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand">aptipro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" (click)="toggleNavbar()" style="float: right;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" [ngClass]="{ 'show': navbarOpen }">
+                <ul class="navbar-nav ms-auto" style="float: right;">
+                    <li class="nav-item"><a class="nav-link" href="#">Get Started</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Language</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                </ul>
+            </div>
         </div>
-        <ul class="navbar-nav navbar-collapse justify-content-end">
-            <li><a href="#" class="nav-link">Get Started</a></li>
-            <li><a href="#" class="nav-link">Language</a></li>
-            <li><a href="#" class="nav-link">Login</a></li>
-        </ul>
     </nav>
 </header>
+
