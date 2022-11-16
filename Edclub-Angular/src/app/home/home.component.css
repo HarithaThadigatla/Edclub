@@ -266,7 +266,7 @@ background-color: #F9F9F9;
     color: white;
 }
 #subscription-home-form{
-    width: 100%;
+    width: fit-content;
     background: linear-gradient(180deg, rgba(233, 233, 233, 0.3) 0%, rgba(233, 233, 233, 0.4) 100%);
     color: black;
     text-align: center;
