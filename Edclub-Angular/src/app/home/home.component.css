@@ -583,7 +583,7 @@ background-color: #F9F9F9;
     }
     #form-email{
         width: 193px;
-        height: 25.67px;
+        height: 28px;
         border-radius:5px;
         margin: 0;
     } 
@@ -591,6 +591,7 @@ background-color: #F9F9F9;
         width: 74px;
         height: 28px;
         border-radius: 5px;
+        margin: auto;
         padding: 4px;
         border: none;
         background-color: white;
