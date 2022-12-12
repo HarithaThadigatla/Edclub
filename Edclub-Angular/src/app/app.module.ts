@@ -13,6 +13,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
+import { ScenariosComponent } from './scenarios/scenarios.component';
+import { QuestionsComponent } from './questions/questions.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { MatIconModule } from '@angular/material/icon';
     HomeComponent,
     LoginComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    ScenariosComponent,
+    QuestionsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
